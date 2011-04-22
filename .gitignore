@@ -3,3 +3,4 @@
 *.pot
 *.pyc
 *.py[co]
+.pydevproject
