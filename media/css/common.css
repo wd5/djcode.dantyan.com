@@ -1,0 +1,223 @@
+	html, body {
+		margin: 0px;
+		padding: 0px;
+		font-size: 100%;
+		height: 100%;
+		margin-bottom: 1px;
+	}
+
+	a img, form {
+		border: none;
+		margin: 0px;
+		padding: 0px;
+	}
+
+	a {
+		outline: 0px;
+		background-color: transparent;
+	}
+
+	img {
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+	.pagination span {
+		background-color: #f9f9f9;
+	}
+
+	.pagination span, .pagination strong, .pagination a {
+		display: inline-block;
+		display: -moz-inline-stack;
+		padding: 2px 4px;
+		border: 1px solid #f1f1f1;
+	}
+
+	.pagination a {
+		text-decoration: none;
+		background-color: #f9f9f9;
+	}
+
+	.pagination a:hover {
+		border: 1px solid #dedede;
+		background-color: #ffffff;
+	}
+
+	.pagination {
+		text-align: center;
+	}
+
+	.pagination.top {
+		margin-bottom: 20px;
+	}
+
+	.pagination.bottom {
+		margin-top: 20px;
+	}
+
+	fieldset {
+		border: 1px solid #d2d3ce;
+		padding: 15px 8px 10px 8px;
+		margin: 15px 0px;
+	}
+
+	legend {
+		padding: 0px 7px;
+		font-size: 107.7%;
+	}
+
+	.form-line {
+		margin-bottom: 3px;
+	}
+
+	.form-line textarea {
+		vertical-align: text-top;
+	}
+
+	.form-line label {
+		display: inline-block;
+	}
+
+	.form-line label.label {
+		width: 120px;
+	}
+
+	.form-line label.explanation {
+		margin-left: 5px;
+	}
+
+	.form_err {
+		color: red;
+	}
+
+	.form-line label.error {
+		width: auto;
+		color: red;
+		margin-left: 10px;
+	}
+
+	textarea {
+		padding: 5px;
+		font-size: 13px;
+		font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Geneva, Sans-serif;
+	}
+
+	.form-example {
+		font-style: italic;
+		font-size: smaller;
+		padding-left: 120px;
+	}
+
+	.field-checkbox {
+		vertical-align: middle;
+	}
+
+	.text-center {
+		text-align: center;
+	}
+
+	.text-bold {
+		font-weight: bold;
+	}
+
+	p {
+		line-height: 1.4em;
+	}
+
+	.clear {
+		clear: both;
+		display: block;
+		overflow: hidden;
+		visibility: hidden;
+		width: 0;
+		height: 0;
+		font-size: 0;
+	}
+
+	.clearfix:after {
+		clear: both;
+		content: ' ';
+		display: block;
+		font-size: 0;
+		line-height: 0;
+		visibility: hidden;
+		width: 0;
+		height: 0;
+	}
+
+	* html .clearfix, *:first-child+html .clearfix {
+		zoom: 1;
+	}
+
+	.footer {
+		position: relative;
+		border-top: 1px solid silver;
+		background-color: #ffffff;
+	}
+
+	.footer a {
+		outline: none;
+	}
+
+	.footer-inner {
+		min-height: 100px;
+		padding: 10px 20px;
+		position: relative;
+		background-color: #ffffff;
+	}
+
+	.footer-menu {
+		overflow: hidden;
+	}
+
+	.footer-menu dl {
+		float: left;
+		font-size: 1em;
+		width: 16.5%;
+		margin: 0px;
+	}
+
+	.footer-menu dl dt {
+		font-size: 13px;
+		margin-bottom: 5px;
+		color: #949494;
+	}
+
+	.footer-menu dl dd {
+		margin: 0px;
+		margin-bottom: 3px;
+	}
+
+	table thead td {
+		font-weight: bold;
+		text-align: center;
+	}
+
+	table.grid {
+		background-color: #d5d5d5;
+	}
+
+	table.grid tr:hover td {
+		background-color: #f9f9f9;
+	}
+
+	table.grid td {
+		background-color: #ffffff;
+	}
+
+	table.grid th {
+		background-color: #f1f1f1;
+	}
+
+	table.grid tr.head td {
+		text-align: center;
+		font-weight: bold;
+	}
+/*
+	font-family:Arial, Helvetica, sans-serif;
+	font-family:"Times New Roman", Times, serif;
+	font-family:"Courier New", Courier, monospace;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+*/
