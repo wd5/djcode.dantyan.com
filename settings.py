@@ -51,7 +51,10 @@ MEDIA_ROOT = ''
 # URL that handles the media served from MEDIA_ROOT. Make sure to use a
 # trailing slash if there is a path component (optional in other cases).
 # Examples: "http://media.lawrence.com", "http://example.com/media/"
-MEDIA_URL = ''
+MEDIA_URL = '/media/'
+
+#STATIC_ROOT = '/var/www/djcode/media/'
+#STATIC_URL = '/static/'
 
 # URL prefix for admin media -- CSS, JavaScript and images. Make sure to use a
 # trailing slash.
@@ -92,6 +95,7 @@ INSTALLED_APPS = (
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
+#    'django.contrib.staticfiles',
     'django.contrib.sites',
     'django.contrib.messages',
     # Uncomment the next line to enable the admin:
@@ -100,7 +104,7 @@ INSTALLED_APPS = (
     'django.contrib.admindocs',
     'djcode.books',
     'djcode.blog',
-    'debug_toolbar',
+    'debug_toolbar',    
 )
 
 INTERNAL_IPS = ('127.0.0.1',)
