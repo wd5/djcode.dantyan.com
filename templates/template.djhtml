@@ -20,8 +20,8 @@
 		{% endblock %}	
 	</head>
 	<body>
-		{% block content %}
-		
-		{% endblock %}
+		<div id="main">		
+			{% block wrapper %}{% endblock %}
+		</div>
 	</body>
 </html>

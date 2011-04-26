@@ -1,0 +1,29 @@
+	#main{
+		width:980px;
+		margin:0px auto;
+	}
+/* -=--=--=--=--=--=--=--=--=--=--=--=--=--=--=- */
+	#header{
+		border:1px solid red;
+		height:100px;
+	}
+/* -=--=--=--=--=--=--=--=--=--=--=--=--=--=--=- */
+	#content-sidebar{
+		border:1px solid red;
+		display:table;
+		width:100%;
+	}
+	#content{
+		border:1px solid red;
+		display:table-cell;
+	}
+	#sidebar{
+		border:1px solid red;
+		display:table-cell;
+		width:250px;
+	}
+/* -=--=--=--=--=--=--=--=--=--=--=--=--=--=--=- */
+	#footer{
+		border:1px solid red;
+		height:100px;
+	}

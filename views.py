@@ -1,5 +1,9 @@
 # -*- coding: utf-8 -*-
 from django.shortcuts import render_to_response
+from django.views.generic import TemplateView
+
+class BaseView(TemplateView):
+	template_name = "template.djhtml"
 
 def welcome(request):
 	""" show index page """

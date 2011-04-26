@@ -1,5 +1,5 @@
 {% extends 'template.djhtml' %}
 
-{% block content %}
+{% block wrapper %}
 	welcome page
 {% endblock %}
