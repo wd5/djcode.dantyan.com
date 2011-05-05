@@ -94,6 +94,13 @@ TEMPLATE_DIRS = (
     # Don't forget to use absolute paths, not relative paths.
 )
 
+DEBUG_TOOLBAR_CONFIG = {
+    'INTERCEPT_REDIRECTS': False,     
+}
+#DEBUG_TOOLBAR_CONFIG = (
+#    'INTERCEPT_REDIRECTS' = False,
+#)
+
 INSTALLED_APPS = (
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -108,6 +115,7 @@ INSTALLED_APPS = (
     'djcode.books',
     'djcode.blog',
     'debug_toolbar',
+    'mptt',
 )
 
 INTERNAL_IPS = ('127.0.0.1',)
