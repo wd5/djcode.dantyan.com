@@ -97,6 +97,12 @@ TEMPLATE_DIRS = (
 DEBUG_TOOLBAR_CONFIG = {
     'INTERCEPT_REDIRECTS': False,     
 }
+<<<<<<< HEAD
+=======
+#DEBUG_TOOLBAR_CONFIG = (
+#    'INTERCEPT_REDIRECTS' = False,
+#)
+>>>>>>> 581f6faf81bccb4b0a78a1074926e90e866c1305
 
 INSTALLED_APPS = (
     'django.contrib.auth',
@@ -113,7 +119,10 @@ INSTALLED_APPS = (
     'djcode.blog',
     'debug_toolbar',
     'mptt',
+<<<<<<< HEAD
 #    'tinymce',
+=======
+>>>>>>> 581f6faf81bccb4b0a78a1074926e90e866c1305
 )
 
 #INYMCE_JS_URL = '/media/js/tiny_mce/tiny_mce_src.js'

@@ -21,7 +21,11 @@
 	#content-sidebar{
 		display:table;
 		width:100%;
+<<<<<<< HEAD
 		margin-top: 275px;		
+=======
+		
+>>>>>>> 581f6faf81bccb4b0a78a1074926e90e866c1305
 	}
 	#content{
 		display:table-cell;
