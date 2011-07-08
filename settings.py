@@ -94,6 +94,10 @@ TEMPLATE_DIRS = (
     # Don't forget to use absolute paths, not relative paths.
 )
 
+DEBUG_TOOLBAR_CONFIG = {
+    'INTERCEPT_REDIRECTS': False,     
+}
+
 INSTALLED_APPS = (
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -108,7 +112,19 @@ INSTALLED_APPS = (
     'djcode.books',
     'djcode.blog',
     'debug_toolbar',
+    'mptt',
+#    'tinymce',
 )
+
+#INYMCE_JS_URL = '/media/js/tiny_mce/tiny_mce_src.js'
+#TINYMCE_DEFAULT_CONFIG = {
+#    'plugins': "table,spellchecker,paste,searchreplace",
+#    'theme': "advanced",
+#    'cleanup_on_startup': True,
+#    'custom_undo_redo_levels': 10,
+#}
+#TINYMCE_SPELLCHECKER = True
+#TINYMCE_COMPRESSOR = True
 
 INTERNAL_IPS = ('127.0.0.1',)
 
