@@ -17,5 +17,8 @@ urlpatterns = patterns('',
     # Uncomment the next line to enable the admin:
     (r'^admin/', include(admin.site.urls)),
     
-    (r'^tinymce/', include('tinymce.urls')),
+    # tinymce urls
+#    (r'^tinymce/', include('tinymce.urls')),
+    
+    (r'^admin/filebrowser/', include('filebrowser.urls')),
 ) 

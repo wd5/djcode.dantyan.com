@@ -97,12 +97,6 @@ TEMPLATE_DIRS = (
 DEBUG_TOOLBAR_CONFIG = {
     'INTERCEPT_REDIRECTS': False,     
 }
-<<<<<<< HEAD
-=======
-#DEBUG_TOOLBAR_CONFIG = (
-#    'INTERCEPT_REDIRECTS' = False,
-#)
->>>>>>> 581f6faf81bccb4b0a78a1074926e90e866c1305
 
 INSTALLED_APPS = (
     'django.contrib.auth',
@@ -110,19 +104,17 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.sites',
     'django.contrib.messages',
+    'filebrowser',
     # Uncomment the next line to enable the admin:
     'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
     'django.contrib.admindocs',
-    'django.contrib.staticfiles',
+    'django.contrib.staticfiles',    
     'djcode.books',
     'djcode.blog',
     'debug_toolbar',
     'mptt',
-<<<<<<< HEAD
 #    'tinymce',
-=======
->>>>>>> 581f6faf81bccb4b0a78a1074926e90e866c1305
 )
 
 #INYMCE_JS_URL = '/media/js/tiny_mce/tiny_mce_src.js'
